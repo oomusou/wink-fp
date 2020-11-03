@@ -1,0 +1,28 @@
+{
+  "name": "wink-fp",
+  "version": "1.24.4",
+  "description": "FP function for Ramda",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "author": "oomusou <oomusou@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "babel src --out-dir dist",
+    "all": "yarn clean && cross-env NODE_ENV=production yarn build && yarn publish"
+  },
+  "dependencies": {
+    "ramda": "^0.27.0",
+    "sanctuary": "^3.1.0",
+    "string-format": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.11.5",
+    "@babel/core": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "cross-env": "^6.0.3",
+    "rimraf": "^3.0.0"
+  }
+}
