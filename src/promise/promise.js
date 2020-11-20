@@ -1,0 +1,1 @@
+export let promise = f => new Promise(f)
