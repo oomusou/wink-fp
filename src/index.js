@@ -1,10 +1,12 @@
 // array
-export { array_entries } from './array/array_entries.js'
+export { avg } from './array/avg.js'
+export { entries } from './array/entries.js'
 export { concatAll } from './array/concatAll.js'
 export { create } from './array/create.js'
 export { discard } from './array/discard'
 export { discardWith } from './array/discardWith.js'
 export { fill } from './array/fill.js'
+export { _from as from } from './array/from.js'
 export { forEachi } from './array/forEachi.js'
 export { pickIndexes } from './array/pickIndexes.js'
 export { plucks } from './array/plucks.js'
@@ -26,7 +28,6 @@ export { toDate } from './date/toDate.js'
 export { pipe } from './function/pipe.js'
 export { compose } from './function/compose.js'
 export { seq } from './function/seq.js'
-export { duct } from './function/duct.js'
 
 // json
 export { stringify } from './json/stringify.js'
@@ -43,6 +44,8 @@ export { isNonEmpty } from './logic/isNonEmpty.js'
 export { isOdd } from './math/isOdd.js'
 export { isEven } from './math/isEven.js'
 export { round } from './math/round.js'
+export { floor } from './math/floor.js'
+export { ceil } from './math/ceil.js'
 
 // maybe
 export { toMaybe } from './maybe/toMaybe.js'
@@ -54,7 +57,6 @@ export { interval } from './misc/interval.js'
 
 // object
 export { hasProp } from './object/hasProp.js'
-export { object_entries } from './object/object_entries.js'
 export { mergeOnly } from './object/mergeOnly.js'
 export { objLength } from './object/objLength.js'
 export { mix } from './object/mix.js'
@@ -95,6 +97,7 @@ export { clearStorage } from './storage/clearStorage.js'
 // string
 export { formatN } from './string/formatN.js'
 export { capitalize } from './string/capitalize.js'
+export { padStart } from './string/padStart.js'
 
 // Type
 export { typeof_ } from './type/typeof_.js'

@@ -1,3 +1,3 @@
-import { addIndex, map } from 'ramda'
+import { addIndex, map, pair, flip } from 'ramda'
 
-export let entries = addIndex(map)((v, k) => [k, v])
+export let entries = addIndex(map)(flip(pair))
