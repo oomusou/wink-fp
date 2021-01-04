@@ -1,6 +1,6 @@
 {
   "name": "wink-fp",
-  "version": "1.24.25",
+  "version": "1.25.0",
   "description": "FP function for Ramda",
   "main": "dist/index.js",
   "files": [
@@ -19,9 +19,9 @@
     "string-format": "^2.0.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.11.5",
-    "@babel/core": "^7.11.5",
-    "@babel/preset-env": "^7.11.5",
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
     "cross-env": "^6.0.3",
     "rimraf": "^3.0.0"
   }
