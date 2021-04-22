@@ -62,6 +62,7 @@ export { objLength } from './object/objLength.js'
 export { mix } from './object/mix.js'
 export { mapValues } from './object/mapValues.js'
 export { mapKeys } from './object/mapKeys.js'
+export { lookup } from './object/lookup.js'
 
 // promise
 export { all } from './promise/all.js'
@@ -88,23 +89,12 @@ export { propLt } from './relation/propLt.js'
 export { propNEq } from './relation/propNEq.js'
 export { propIncludes } from './relation/propIncludes'
 
-// storage
-export { readStorage } from './storage/readStorage.js'
-export { writeStorage } from './storage/writeStorage.js'
-export { removeStorage } from './storage/removeStorage.js'
-export { clearStorage } from './storage/clearStorage.js'
-
 // string
 export { formatN } from './string/formatN.js'
 export { capitalize } from './string/capitalize.js'
 export { padStart } from './string/padStart.js'
+export { padEnd } from './string/padEnd.js'
 
 // Type
 export { typeof_ } from './type/typeof_.js'
 export { isNotNil } from './type/isNotNil.js'
-
-
-
-
-
-
