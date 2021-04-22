@@ -1,6 +1,6 @@
 {
   "name": "wink-fp",
-  "version": "1.27.0",
+  "version": "1.27.1",
   "description": "FP function for Ramda",
   "main": "dist/index.js",
   "files": [
